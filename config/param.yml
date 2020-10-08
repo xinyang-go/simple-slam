@@ -1,0 +1,22 @@
+%YAML:1.0
+---
+K: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 706.8, 0., 320.0,
+           0., 706.8, 192.0,
+           0., 0., 1. ]
+
+C: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: f
+   data: [  -0.123387503098401, 0.2297837306937054,
+            0.0, 0.0, -0.42964421106103]
+
+max_history_frame_size: 10
+
+max_frame_point_size: 100
+
+point_world_look_cnt: 5
